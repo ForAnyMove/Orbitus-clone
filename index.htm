@@ -11,7 +11,7 @@
                 a: {},
             };
         </script>
-				<script src="https://kit.fontawesome.com/0b0e4ae730.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/0b0e4ae730.js" crossorigin="anonymous"></script>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="profile" href="https://gmpg.org/xfn/11" />
@@ -1720,10 +1720,10 @@
                 --e-global-color-primary: #fff;
                 --e-global-color-secondary: #7a7a7a;
                 --e-global-color-text: #e2e2e4;
-                --e-global-color-accent: #052964;
+                --e-global-color-accent: #400564; /* кнопки и прочие градиенты */
                 --e-global-color-6dafc86: #0c60e8;
                 --e-global-color-7bfd525: #fb4563;
-                --e-global-color-d901d88: #000;
+                --e-global-color-d901d88: #000; /* используется как переменная для задания второго цвета градиента */
                 --e-global-typography-primary-font-weight: 600;
                 --e-global-typography-secondary-font-weight: 400;
                 --e-global-typography-text-font-weight: 400;
@@ -1784,7 +1784,7 @@
                 font-weight: 300;
                 color: var(--e-global-color-text);
                 background-color: transparent;
-                background-image: linear-gradient(180deg, rgba(251, 69, 99, 0.5) 30%, var(--e-global-color-d901d88) 80%);
+                background-image: linear-gradient(180deg, rgba(251, 229, 39, 0.5) 30%, var(--e-global-color-d901d88) 80%);
                 border-style: solid;
                 border-width: 2px;
                 border-color: rgba(251, 69, 99, 0.5);
@@ -1801,7 +1801,7 @@
             .elementor-kit-6 .elementor-button:focus {
                 color: var(--e-global-color-text);
                 background-color: transparent;
-                background-image: linear-gradient(230deg, var(--e-global-color-d901d88) 25%, rgba(251, 69, 99, 0.5) 85%);
+                background-image: linear-gradient(230deg, var(--e-global-color-d901d88) 25%, rgba(69, 251, 236, 0.5) 85%);
             }
             .elementor-kit-6 label {
                 font-family: var(--e-global-typography-ba3a9f5-font-family), Sans-serif;
@@ -7754,11 +7754,11 @@
                 padding: 0 24px;
             }
             .ex1.elementor-widget-form .elementor-button {
-                background-image: linear-gradient(180deg, #052964 30%, #000 80%);
+                background-image: linear-gradient(180deg, #05640d 30%, #000 80%);
                 border-color: #052964;
             }
             .ex1.elementor-widget-form .elementor-button:hover {
-                background-image: linear-gradient(230deg, #000 25%, #052964 85%);
+                background-image: linear-gradient(230deg, #000 25%, #ff0000 85%);
                 border-color: #052964;
             }
         </style>
@@ -8639,8 +8639,8 @@
             }
             .mystickyelements-fixed ul li {
                 margin: 4px 0;
-                background: linear-gradient(180deg, #052964, #000);
-                border: solid 2px #052964;
+                background: linear-gradient(180deg, #8f0adb, #000);
+                border: solid 2px #ec7d0f;
                 border-radius: 4px;
             }
             @media (max-width: 1024px) {
@@ -9757,7 +9757,7 @@
                         data-element_type="section"
                         data-settings='{"background_background":"video","background_play_on_mobile":"yes"}'
                     >
-                        <div class="elementor-background-video-container">
+                        <div class="elementor-background-video-container">  <!-- Если нужно поменять фоновое видео - меняем ссыку на видеофайл в атрибуте "src" тега ниже -->
                             <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted="" playsinline="" loop="" src="wp-content/uploads/2023/09/planet-1.mp4" style="height: 100%;"></video>
                         </div>
                         <div class="elementor-container elementor-column-gap-default">
@@ -9784,7 +9784,7 @@
                                                         data-widget_type="premium-svg-drawer.default"
                                                     >
                                                         <div class="elementor-widget-container">
-                                                            <div class="premium-svg-draw elementor-invisible">
+                                                            <div class="premium-svg-draw elementor-invisible"> <!-- Место для изменения/удаления анимированного логотипа SVG -->
                                                                 <svg width="486.975" height="87.659" viewbox="0 0 486.975 87.659" xmlns="http://www.w3.org/2000/svg">
                                                                     <g
                                                                         id="svgGroup"

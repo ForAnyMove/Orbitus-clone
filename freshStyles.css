@@ -1,0 +1,204 @@
+.elementor-15
+  .elementor-element.elementor-element-ceb4a44
+  .elementor-heading-title {
+  color: #ff6747;
+  font-family: 'Rubik', Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.elementor-icon i:before,
+.elementor-icon svg:before {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.elementor-icon i.fa-phone-alt:before {
+  transform: rotate(45deg) translateX(-50%);
+}
+.elementor-background-video-container {
+  background-image: url('./fresh images/mian page/background.jfif');
+  filter: brightness(40%);
+  background-size: cover;
+  background-position: center;
+}
+.fresh-header-gradient {
+  background: linear-gradient(180deg, #17172500 60%, #171725 90%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  direction: ltr;
+}
+.elementor-15
+  .elementor-element.elementor-element-c7313b7
+  .premium-bullet-list-content {
+  background-color: rgba(0, 0, 0, 0%);
+}
+.elementor-15 .elementor-element.elementor-element-e382ad8 {
+  --divider-border-style: solid;
+  --divider-color: #00cdc6;
+  --divider-border-width: 3px;
+}
+.cpel-switcher__lang a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.elementor-1329
+  .elementor-element.elementor-element-5f8f053
+  .cpel-switcher__code {
+  padding-left: 0;
+}
+.elementor-kit-6 {
+  --e-global-color-main: #ff6747;
+  --e-global-color-primary: #fff;
+  --e-global-color-secondary: #7a7a7a;
+  --e-global-color-text: #e2e2e4;
+  --e-global-color-accent: #007878; /* кнопки и прочие градиенты */
+  --e-global-color-6dafc86: #0c60e8;
+  --e-global-color-7bfd525: #fb4563;
+  --e-global-color-d901d88: #171725; /* используется как переменная для задания второго цвета градиента */
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-weight: 400;
+  --e-global-typography-accent-font-weight: 300;
+  --e-global-typography-ba3a9f5-font-family: 'Inter';
+  --e-global-typography-ba3a9f5-font-size: 20px;
+  --e-global-typography-ba3a9f5-font-weight: 300;
+  --e-global-typography-ed0a252-font-family: 'Rubik';
+  --e-global-typography-ed0a252-font-size: 80px;
+  --e-global-typography-sub-ed0a252-font-size: 120px;
+  --e-global-typography-ed0a252-font-weight: 700;
+  --e-global-typography-ed0a252-line-height: 1.2em;
+  --e-global-typography-1a0ee90-font-family: 'Rubik';
+  --e-global-typography-1a0ee90-font-size: 150px;
+  --e-global-typography-1a0ee90-font-weight: 700;
+  color: var(--e-global-color-text);
+  font-family: 'Inter', Sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  background-color: var(--e-global-color-d901d88);
+  --e-page-transition-entrance-animation: e-page-transition-fade-out;
+  --e-page-transition-exit-animation: e-page-transition-fade-in;
+  --e-page-transition-animation-duration: 1500ms;
+  --e-preloader-animation-duration: 2500ms;
+  --e-preloader-delay: 0ms;
+}
+.elementor-15 .elementor-element.elementor-element-f6feae9 .elementor-button,
+.elementor-15 .elementor-element.elementor-element-8662817 .elementor-button {
+  background-image: linear-gradient(
+    180deg,
+    var(--e-global-color-accent) 0%,
+    rgba(0, 0, 0, 100%) 100%
+  );
+}
+
+.mystickyelements-fixed ul li {
+  margin: 4px 0;
+  background: linear-gradient(180deg, #007878, #171725);
+  border: solid 1px #029b96;
+  border-radius: 4px;
+}
+.mystickyelements-fixed ul li#mystickyelements-social-exchange-dollar {
+  margin: 4px 0;
+  background: linear-gradient(180deg, #ac2104, #171725);
+  border: solid 1px #ff6747;
+  border-radius: 4px;
+}
+/* .fresh-second-section {
+    background-image: url('./fresh images/mian page/econd-section-bg.jfif');
+    filter: brightness(40%);
+    background-size: cover;
+    background-position: center;
+  } */
+
+.fresh-second-section_header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fresh-second-section_header-container .elementor-heading-sub-title {
+  margin-bottom: -8%;
+  z-index: 90;
+  opacity: 0.1;
+}
+.fresh-second-section_header-container .elementor-heading-title {
+  z-index: 100;
+}
+.fresh-first-to-second-section-gradient-container {
+  background: linear-gradient(#17172500, #171725);
+  height: 20vh;
+  width: 100%;
+  margin: -5vh 0 -15vh;
+}
+.elementor-15
+  .elementor-element.elementor-element-afbcc44:not(
+    .elementor-motion-effects-element-type-background
+  )[data-ai-bg*='-1366-'],
+.elementor-15
+  .elementor-element.elementor-element-afbcc44
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer[data-ai-bg*='-1366-'] {
+  background-image: url('./fresh images/mian page/econd-section-bg.jfif');
+  --lzl-bg-img: './fresh images/mian page/econd-section-bg.jfif';
+}
+.fresh-contacts-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1vw;
+}
+.fresh-contacts-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fresh-phone-number-line {
+  margin-bottom: 2vh;
+}
+.fresh-second-section_contact-tab-header {
+  font-family: var(--e-global-typography-ba3a9f5-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-ba3a9f5-font-weight);
+  line-height: var(--e-global-typography-ba3a9f5-line-height);
+  letter-spacing: var(--e-global-typography-ba3a9f5-letter-spacing);
+  word-spacing: var(--e-global-typography-ba3a9f5-word-spacing);
+  font-size: 30px;
+}
+/* .ex1.elementor-widget-form .elementor-button:hover {
+    background-image: linear-gradient(180deg, #AC2104 30%, #171725 80%);
+    border-color: #FF6747;
+  } */
+.elementor-15
+  .elementor-element.elementor-element-567a50e
+  .premium-bullet-list-wrapper
+  svg,
+.elementor-15
+  .elementor-element.elementor-element-0421e36
+  .premium-bullet-list-wrapper
+  svg,
+.elementor-15
+  .elementor-element.elementor-element-b10e1dd
+  .premium-bullet-list-wrapper
+  svg,
+.elementor-15
+  .elementor-element.elementor-element-3408a27
+  .premium-bullet-list-wrapper
+  svg,
+.elementor-15
+  .elementor-element.elementor-element-1cef37c
+  .premium-bullet-list-wrapper
+  svg,
+.elementor-15
+  .elementor-element.elementor-element-c698890
+  .premium-bullet-list-wrapper
+  svg {
+  background-color: #02989b;
+}
